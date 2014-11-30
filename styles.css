@@ -1,3 +1,48 @@
+/* Colors palette
+ * page-brackground: #f0f0f0; // Light grey
+ * header-background: #52A3CF; // Color for higlight
+ * font-color: #222; // Dark grey
+ * header-font-color: #f3f9fb; // Text over color
+ */
+
 body {
-	background: #fafafa;
+	background: #f0f0f0;
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	text-rendering: optimizeLegibility;
 }
+
+.header {
+	background: #52A3CF;
+	color: #fff;
+	padding: 120px 0;
+	text-align: center;
+}
+	.bajada {
+		font-size: 1em;
+		font-weight: 400;
+		margin: 0;
+	}
+	.bajada-call-to-action {
+		display: block;
+		font-size: .8em;
+	}
+	.call-to-action {
+		display: inline-block;
+		vertical-align: middle;
+		background: #fff;
+		color: #52A3CF;
+		text-decoration: none;
+		padding: 10px 20px;
+		border-radius: 3px;
+		margin: 20px 0 5px 0;
+		text-transform: uppercase;
+	}
+	.logo {
+		font-size: 2.5em;
+		font-weight: 700;
+		line-height: 1;
+		margin: 0;
+	}
