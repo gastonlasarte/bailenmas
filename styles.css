@@ -1,13 +1,6 @@
-/* Colors palette
- * page-brackground: #f0f0f0; // Light grey
- * header-background: #52A3CF; // Color for higlight
- * font-color: #222; // Dark grey
- * header-font-color: #f3f9fb; // Text over color
- */
-
 body {
 	background: #f0f0f0;
-	color: #222;
+	color: #666;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	margin: 0;
@@ -54,17 +47,21 @@ body {
 	background: #fff;
 	box-sizing: border-box;
 	display: inline-block;
-	margin: 10px;
+	margin: 8px;
 	text-align: left;
 	vertical-align: top;
-	width: 18%;
-}
-.evento-footer {
-	padding: 13px 10px;
+	width: 200px;
 }
 
+.evento-footer {
+	font-size: .75em;
+	padding: 13px 10px;
+}
+	.evento-footer p {
+		margin: 0;
+	}
+
 .filtros {
-	float: right;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -76,13 +73,20 @@ body {
 	.filtros li {
 		display: inline-block;
 		font-size: .8em;
-		margin-left: 10px;
-		vertical-align: middle;
+		margin-left: 15px;
+		vertical-align: bottom;
 	}
 		.filtros li a {
-			color: #52A3CF;
+			color: #666;
+			display: block;
+			padding-bottom: 10px;
 			text-decoration: none;
+			text-transform: uppercase;
 		}
+			.active {
+				border-bottom: 2px solid #52A3CF;
+				color: #52A3CF;
+			}
 
 .flyer {
 	max-height: 325px;
@@ -103,20 +107,19 @@ body {
 .header {
 	background: #52A3CF;
 	color: #fff;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 	padding: 100px 0;
 	text-align: center;
 }
 
 .header-listado-eventos {
-	border-bottom: 1px solid #52A3CF;
+	border-bottom: 1px solid #ddd;
 	margin: 0 0 10px 0;
-	padding: 0 0 10px 0;
 }
 
 .listado-galeria {
-	margin: 0 auto 40px auto;
-	max-width: 1290px;
+	margin: 0 auto 25px auto;
+	max-width: 1305px;
 	text-align: center;
 }
 
@@ -127,9 +130,15 @@ body {
 	margin: 0;
 }
 
-.titular-modulo {
-	float: left;
+.titulo-evento {
+	font-size: 1rem;
+	font-weight: 700;
+	margin: 0 0 10px;
+}
+
+.titulo-modulo {
 	font-size: 1.8em;
 	font-weight: 100;
-	margin: 0;
+	margin: 0 0 25px 0;
+	text-align: left;
 }
