@@ -14,35 +14,122 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+.bajada {
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0;
+}
+
+.bajada-call-to-action {
+	display: block;
+	font-size: .8em;
+}
+
+.call-to-action {
+	display: inline-block;
+	vertical-align: middle;
+	background: #fff;
+	color: #52A3CF;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	margin: 20px 0 5px 0;
+	text-transform: uppercase;
+}
+
+.clearfix::after {
+	clear: both;
+	content: " ";
+	display: block;
+}
+
+.container-flyer {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+}
+
+.evento {
+	background: #fff;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 10px;
+	text-align: left;
+	vertical-align: top;
+	width: 18%;
+}
+.evento-footer {
+	padding: 13px 10px;
+}
+
+.filtros {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+	.filtros li:first-child {
+		margin-left: 0;
+	}
+	.filtros li {
+		display: inline-block;
+		font-size: .8em;
+		margin-left: 10px;
+		vertical-align: middle;
+	}
+		.filtros li a {
+			color: #52A3CF;
+			text-decoration: none;
+		}
+
+.flyer {
+	max-height: 325px;
+	width: auto;
+}
+
+.footer {
+	background: #52A3CF;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+}
+	.footer p {
+		font-size: .8em;
+		margin: 0;
+	}
+
 .header {
 	background: #52A3CF;
 	color: #fff;
-	padding: 120px 0;
+	margin-bottom: 40px;
+	padding: 100px 0;
 	text-align: center;
 }
-	.bajada {
-		font-size: 1em;
-		font-weight: 400;
-		margin: 0;
-	}
-	.bajada-call-to-action {
-		display: block;
-		font-size: .8em;
-	}
-	.call-to-action {
-		display: inline-block;
-		vertical-align: middle;
-		background: #fff;
-		color: #52A3CF;
-		text-decoration: none;
-		padding: 10px 20px;
-		border-radius: 3px;
-		margin: 20px 0 5px 0;
-		text-transform: uppercase;
-	}
-	.logo {
-		font-size: 2.5em;
-		font-weight: 700;
-		line-height: 1;
-		margin: 0;
-	}
+
+.header-listado-eventos {
+	border-bottom: 1px solid #52A3CF;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+}
+
+.listado-galeria {
+	margin: 0 auto 40px auto;
+	max-width: 1290px;
+	text-align: center;
+}
+
+.logo {
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1;
+	margin: 0;
+}
+
+.titular-modulo {
+	float: left;
+	font-size: 1.8em;
+	font-weight: 100;
+	margin: 0;
+}
