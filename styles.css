@@ -7,6 +7,10 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+#modulo-header-evento .titulo-modulo {
+	float: left;
+}
+
 .bajada {
 	font-size: 1em;
 	font-weight: 400;
@@ -47,10 +51,10 @@ body {
 	background: #fff;
 	box-sizing: border-box;
 	display: inline-block;
-	margin: 8px;
+	margin: 7px;
 	text-align: left;
 	vertical-align: top;
-	width: 200px;
+	width: 15.58%;
 }
 
 .evento-footer {
@@ -117,7 +121,7 @@ body {
 	margin: 0 0 10px 0;
 }
 
-.listado-galeria {
+.container-principal {
 	margin: 0 auto 25px auto;
 	max-width: 1305px;
 	text-align: center;
@@ -129,6 +133,42 @@ body {
 	line-height: 1;
 	margin: 0;
 }
+
+.modulo-evento-flyer {
+	float: left;
+	margin: 0;
+	width: 35%;
+}
+	.modulo-evento-flyer img {
+		height: auto;
+		width: 100%;
+	}
+
+.modulo-evento-lugar {
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	max-height: 510px;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.modulo-evento-shares {
+	float: right;
+	list-style-type: none;
+	padding: 0;
+}
+	.modulo-evento-shares li:first-child {
+		margin: 0;
+		}
+	.modulo-evento-shares li {
+		display: inline-block;
+		margin: 0 0 0 10px;
+		vertical-align: top;
+	}
+		.modulo-evento-shares li a {
+			color: #666;
+			text-decoration: none;
+		}
 
 .titulo-evento {
 	font-size: 1rem;
